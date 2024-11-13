@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=K2D:wght@800&display=swap');
+
+.context-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* gap: 30px; */
+    margin: 0 auto;
+    padding: 40px 20px;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    background-image: url("../Images/background.png");
+    margin-top: 80px;
+}
+
+.context-item {
+    width: 32%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* This centers content horizontally */
+}
+
+.context-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    /* Add this to ensure the image is centered */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.context-item h3 {
+    width: 343px;
+    height: 31px;
+    font-family: K2D;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+.context-item p {
+    width: 343px;
+    height: 80px;
+    font-family: K2D;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 19.5px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+.context-btn {
+    width: 179px;
+    height: 45px;
+    font-family: K2D;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 26px;
+    text-align: center;
+    background: rgba(217, 217, 217, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    opacity: 1;
+    /* transition: background-color 0.3s ease, transform 0.2s ease; */
+    margin-top: 20px;
+    margin-left: 500px;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .context-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .context-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .context-item img {
+        /* max-width: 100%; */
+        margin: 0 auto;
+    }
+}

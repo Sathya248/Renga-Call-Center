@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=K2D:wght@700&display=swap');
+
+
+.callcenter-container {
+    text-align: center;
+    padding: 50px;
+}
+
+
+.head {
+    font-family: K2D;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    text-align: left;
+    color: white;
+    margin-bottom: 20px;
+}
+
+
+.paragraph {
+    font-family: K2D;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 19.5px;
+    text-align: left;
+    color: white;
+    margin-bottom: 30px;
+}
+
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+/* Wrapper for both circle and mic images */
+.circle-wrapper {
+    position: relative;
+    width: 150px; /* Same as circle image width */
+    height: 150px; /* Same as circle image height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Circle image styling */
+.circle-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: rgba(217, 217, 217, 0.17);
+    backdrop-filter: blur(5px);
+}
+
+/* Mic image inside circle image */
+.mic-img {
+    position: absolute;
+    width: 60px; /* Adjust size of the mic */
+    height: 80px;
+    top: 50%; /* Position it vertically at the center */
+    left: 52%; /* Position it horizontally at the center */
+    transform: translate(-50%, -50%); /* Center the mic image */
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+
+.heading-1 {
+    width: 180px;
+    height: 45px;
+    padding-top: 10px;
+    margin-left: 130px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: white;
+    backdrop-filter: blur(4px);
+    text-align: center;
+    margin-top: 30px;
+}

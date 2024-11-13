@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=K2D:wght@800&display=swap');
+
+.benefit-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: start;
+    color: rgba(255, 255, 255, 1);
+    
+    /* Background Image Styling */
+    background-image: url("../Images/img.png");  
+    background-position: right;  
+    background-size: auto 100%; 
+    background-repeat: no-repeat; 
+    
+}
+
+/* Heading styling */
+.benefit-heading {
+    width: 961px;
+    height: 62px;
+    font-family: K2D;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 62.4px;
+    text-align: start;
+    color: rgba(255, 255, 255, 1);
+}
+
+/* Description styling */
+.benefit-description {
+    width: 668px;
+    height: 39px;
+    font-family: K2D;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 19.5px;
+    text-align: start;
+    color: rgba(255, 255, 255, 1);
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .benefit-heading {
+        font-size: 28px; /* Adjust heading size for smaller screens */
+    }
+
+    .benefit-description {
+        font-size: 16px;
+        padding: 0 15px;
+    }
+}

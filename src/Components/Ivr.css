@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=K2D:wght@800&display=swap');
+
+.ivr-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    /* margin-top: 50px; */
+    /* gap: 30px; */
+    background-image: url("../Images/background.png");
+    
+}
+
+.ivr-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+
+.text-content {
+    width: 343px;
+    height: 60px;
+    font-family: K2D;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19.5px;
+    text-align: right;
+    color: rgba(255, 255, 255, 1);
+}
+/* .i{
+    padding-left: 50px;
+} */
+
+.image-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+ 
+.ivr-img,
+.routing-img,
+.switch-img{
+    width: 120px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-top: 40px;
+}
+

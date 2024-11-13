@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=K2D:wght@800&display=swap');
+
+.details {
+    background-image: url("../Images/circle1.png"); 
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    border-radius: 8px;  
+    background-color: rgba(0, 0, 0, 0.05); 
+}
+
+.details, .explain {
+    flex: 1;
+    max-width: 50%; 
+  }
+
+
+.renga {
+    font-family: 'K2D', sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    color: #fff;
+}
+
+
+.details-content {
+    font-family: 'K2D', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #fff;
+    text-align: right;
+}
+
+  
+   
+
+
+ 

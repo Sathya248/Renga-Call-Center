@@ -1,0 +1,71 @@
+.app-container {
+  display: flex;
+  justify-content: space-between; /* To create space between the two components */
+  align-items: center; /* To vertically center them */
+  height: 100vh; /* Full viewport height */
+  padding: 0 50px; /* Optional padding to give some space from the edges */
+}
+
+.form-container, .callcenter-container {
+  flex: 1; /* Each component will take up equal space */
+  max-width: 50%; /* Limit the maximum width of each component */
+}
+.callcenter-container{
+  margin-bottom: 150px;
+}
+.form-container{
+  margin-top: 700px;
+}
+
+.details-container {
+  display: flex;
+  justify-content: space-between;  /* Space between the left and right components */
+  align-items: flex-start;         /* Align both components at the top */
+  margin: 40px;                    /* Margin to give space from the edges */
+  gap: 30px;                       /* Space between the two components */
+}
+
+
+
+/* Parent container to hold both components */
+.main-container {
+  display: flex;
+  justify-content: space-between;  /* Align left and right components */
+  gap: 30px;  /* Space between the left and right components */
+  margin: 0 50px;  /* Optional, to add some margin to the container */
+  align-items: flex-start;  /* Align the items to the top */
+}
+
+/* Style for the left container */
+.left {
+  flex: 1;  /* Allow the left container to take available space */
+  min-width: 300px;  /* Optional: set a minimum width */
+}
+
+/* Style for the right container */
+.right {
+  flex: 1;  /* Allow the right container to take available space */
+  min-width: 300px;  /* Optional: set a minimum width */
+}
+
+/* Optional: Add responsiveness for smaller screens */
+@media (max-width: 768px) {
+  .main-container {
+      flex-direction: column;  /* Stack the components vertically on small screens */
+      gap: 20px;
+  }
+
+  .left, .right {
+      flex: 1;  /* Allow both to take up equal space */
+      min-width: unset;  /* Remove the minimum width on small screens */
+  }
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=K2D:wght@800&display=swap');
+
+.full-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    margin-top: 100px;
+    background-image: url("../Images/deliver.png");
+    background-position:0dvb;
+}
+
+
+.fivestar {
+    width: 382px;
+    height: 124px;
+    font-family: K2D;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 62.4px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+.para {
+    width: 382px;
+    height: 60px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: K2D;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 19.5px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.button {
+
+    color: white;
+    font-family: K2D;
+    font-size: 20px;
+    font-weight: 800;
+    /* line-height: 26px; */
+    text-align: center;
+    padding: 9px 31px 9px 31px;
+    gap: 10px;
+    border-radius: 10px;
+    border: 1px;
+    background: rgba(217, 217, 217, 0.2);
+    border: 1px solid;
+    border-image-source: linear-gradient(93.55deg, rgba(255, 255, 255, 0.5) 2.32%, rgba(153, 153, 153, 0.5) 52.21%);
+    margin-left: 90px;
+}
+
+@media (max-width: 600px) {
+    .fivestar {
+        font-size: 2rem;
+    }
+
+    .para {
+        font-size: 0.9rem;
+    }
+
+    .button {
+        width: 100%;
+        padding: 12px 0;
+    }
+}

@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=K2D:wght@800&display=swap');
+
+body {
+    margin: 0;
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+}
+
+.heading {
+    font-family: 'K2D';
+    font-size: 38px;
+    font-weight: 800;
+    text-align: left; 
+    color: white; 
+    padding-left: 50px; 
+    background-color: #0000;
+
+}
+
+.nav-poisition {
+    display: flex;
+    gap: 20px; 
+    display: flex; 
+    font-family: 'K2D';
+    font-size: 15px;
+    font-weight: 800;
+    text-align: center;
+    justify-content: center; 
+    flex-grow: 1; 
+    margin-left: 250px
+}
+
+.nav-poisition li {
+    display: inline;
+}
+
+.nav-poisition a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s
+}
+
+.nav-poisition a:hover {
+    color: #ccc;
+}
+
+
+.btn {
+    width: 100px;
+    height: 45px;
+    /* padding: 9px 31px; */
+    padding-right: 50px;
+    border-radius: 10px;
+    border: solid rgba(8, 8, 8, 0.1);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 400px;
+    background-color: #000000;
+}
+

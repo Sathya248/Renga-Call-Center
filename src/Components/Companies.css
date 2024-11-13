@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=K2D:wght@800&display=swap');
+
+.companies-container {
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    background-color: black;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    font-family: K2D;
+    font-size: 45px;
+    font-weight: 800;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 20px;
+}
+
+.intro-text {
+    font-family: K2D;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 40px;
+}
+
+/* Category button style */
+.category-button {
+    font-family: K2D;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+    background: rgba(255, 255, 255, 0.2);
+    padding: 12px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.category-button:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap; /* For responsiveness */
+    margin-top: 40px;
+}
+
+.image-container1 {
+    flex: 1;
+    max-width: 100%;
+    /* background-image: url("../Images/laptop.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+   
+}
+
+.picture {
+    background-image: url("../Images/laptop.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:auto;
+    height: 300px; 
+}
+
+.text-container {
+    flex: 1;
+    max-width: 50%; /* To make sure text takes up the other half */
+    color: rgba(255, 255, 255, 1);
+    text-align: left;
+}
+
+.growth-heading {
+    font-family: K2D;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 46.8px;
+    margin-bottom: 20px;
+}
+
+.growth-description {
+    font-family: K2D;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 19.5px;
+    margin-bottom: 40px;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-right: 200px;
+}
+
+.read-more-button, .demo-button {
+    width: 150px;
+    height: 45px;
+    padding: 9px 31px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.read-more-button:hover, .demo-button {
+    background: rgba(255, 255, 255, 0.4);
+}
+.demo-button{
+    padding-left: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: black;
+    color: rgba(255, 255, 255, 0.2);;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .title {
+        font-size: 28px;
+    }
+
+    .intro-text {
+        font-size: 16px;
+    }
+
+    .category-button {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    .growth-heading {
+        font-size: 22px;
+    }
+
+    .growth-description {
+        font-size: 14px;
+    }
+
+    .content-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .image-container, .text-container {
+        max-width: 100%;
+    }
+
+    .companies-container {
+        padding: 20px;
+    }
+}
