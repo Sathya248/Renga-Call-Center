@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Renga-Call-Center/static/css/main.c7e2c31a.css",
+    "main.js": "/Renga-Call-Center/static/js/main.97b6e7b2.js",
+    "static/media/background.png": "/Renga-Call-Center/static/media/background.e8f914080079ce519ecc.png",
+    "static/media/img.png": "/Renga-Call-Center/static/media/img.ff69fc841ac55e722689.png",
+    "static/media/deliver.png": "/Renga-Call-Center/static/media/deliver.f89205d6c4ef6edcd6c3.png",
+    "static/media/laptop.png": "/Renga-Call-Center/static/media/laptop.9eb4a9156cd220999cc9.png",
+    "static/media/circle1.png": "/Renga-Call-Center/static/media/circle1.3b9d15ab7296ed6108ae.png",
+    "static/media/Circle.png": "/Renga-Call-Center/static/media/Circle.02aef271c0407ad31fdf.png",
+    "static/media/brand.png": "/Renga-Call-Center/static/media/brand.140ed629669bd3a5f339.png",
+    "static/media/mic.png": "/Renga-Call-Center/static/media/mic.50134ca17c2341014a01.png",
+    "static/media/images-2.png": "/Renga-Call-Center/static/media/images-2.b8daee49952512a1d515.png",
+    "static/media/images-1.png": "/Renga-Call-Center/static/media/images-1.db16c18f6455b936993f.png",
+    "static/media/button-1.png": "/Renga-Call-Center/static/media/button-1.09c202b676573b7d0b9c.png",
+    "index.html": "/Renga-Call-Center/index.html",
+    "main.c7e2c31a.css.map": "/Renga-Call-Center/static/css/main.c7e2c31a.css.map",
+    "main.97b6e7b2.js.map": "/Renga-Call-Center/static/js/main.97b6e7b2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c7e2c31a.css",
+    "static/js/main.97b6e7b2.js"
+  ]
+}
